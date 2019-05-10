@@ -1,0 +1,30 @@
+
+{
+    "Games": [
+        {
+            "SerialNo":1,
+            "game":"Shooting",
+            "Price":105
+        },
+        {
+            "SerialNo":2,
+            "game":"Angry Birds",
+            "Price":95
+        },
+        {
+            "SerialNo":3,
+            "game":"Temple Run",
+            "Price":200
+        },
+        {
+            "SerialNo":4,
+            "game":"Bike Race",
+            "Price":90
+        },
+        {
+            "SerialNo":5,
+            "game":"Air Control",
+            "Price":800
+        }
+      ]
+}

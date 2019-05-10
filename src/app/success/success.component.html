@@ -1,0 +1,21 @@
+<!-- succes component is created to display the contents that are created -->
+<div class="container" >
+
+    <table class=" table table-bordered"  >
+      <thead>
+      <tr  >
+        <th style="text-align: center">SerialNo</th>
+        <th style="text-align: center">Game</th>
+        <th style="text-align: center">Price</th>
+        <th style="text-align: center">Link to game</th>
+        
+      </tr>
+      <tr *ngFor = "let game of games" class="center" >
+        <td  style="text-align: center">{{game.SerialNo}}</td>
+        <td  style="text-align: center">{{game.game}}</td>
+        <td  style="text-align: center">Rs {{game.Price}}</td> 
+        <td style="text-align: center"> <a href="success.html" target="_blank">Play now</a></td>
+      </tr>
+    </thead>
+    </table>
+    </div>
